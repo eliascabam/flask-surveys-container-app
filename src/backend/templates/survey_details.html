@@ -23,6 +23,7 @@
       <button type="submit" class="btn btn-primary">Submit</button>
       <button type="cancel" class="btn btn-warning">Cancel</button>
   </form>
+  <script src="{{ url_for('static', filename='autosave.js') }}" data-survey-id="{{ survey.id }}"></script>
   </section>
  {% else %}
   <section>
